@@ -1,0 +1,340 @@
+PS C:\Users\Administrator> ping poltek-gt.ac.id
+
+Pinging poltek-gt.ac.id [103.163.138.26] with 32 bytes of data:
+Reply from 103.163.138.26: bytes=32 time=7ms TTL=49
+Reply from 103.163.138.26: bytes=32 time=14ms TTL=49
+Reply from 103.163.138.26: bytes=32 time=15ms TTL=49
+Reply from 103.163.138.26: bytes=32 time=9ms TTL=49
+
+Ping statistics for 103.163.138.26:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 7ms, Maximum = 15ms, Average = 11ms
+
+
+PS C:\Users\Administrator> ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 10.10.11.107
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.10.11.1
+
+
+PS C:\Users\Administrator> whoami
+win-qvnkpr7btpc\administrator
+
+
+PS C:\Users\Administrator> getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+70-C9-4E-38-16-62   \Device\Tcpip_{CEB6DF43-CE77-4FD6-8A25-4EFC20AB08C2}
+4C-ED-FB-13-76-B2   Media disconnected
+
+
+PS C:\Users\Administrator> systeminfo
+
+Host Name:                 WIN-QVNKPR7BTPC
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.18363 N/A Build 18363
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:
+Product ID:                00330-80180-35975-AA740
+Original Install Date:     5/6/2022, 7:42:19 PM
+System Boot Time:          8/14/2022, 8:07:46 AM
+System Manufacturer:       ASUSTeK COMPUTER INC.
+System Model:              X441BA
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 21 Model 112 Stepping 0 AuthenticAMD ~3100 Mhz
+BIOS Version:              American Megatrends Inc. X441BA.310, 2/25/2020
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     3,968 MB
+Available Physical Memory: 870 MB
+Virtual Memory: Max Size:  6,272 MB
+Virtual Memory: Available: 906 MB
+Virtual Memory: In Use:    5,366 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\WIN-QVNKPR7BTPC
+Hotfix(s):                 6 Hotfix(s) Installed.
+                           [01]: KB4601056
+                           [02]: KB4517245
+                           [03]: KB4535680
+                           [04]: KB4589211
+                           [05]: KB5004748
+                           [06]: KB5004245
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Qualcomm Atheros AR956x Wireless Network Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     10.10.11.1
+                                 IP address(es)
+                                 [01]: 10.10.11.107
+                           [02]: Realtek PCIe FE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+
+PS C:\Users\Administrator> dir
+
+
+    Directory: C:\Users\Administrator
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/12/2022   3:06 AM                .vscode
+d-r---         5/6/2022   7:43 PM                3D Objects
+d-r---         5/6/2022   7:43 PM                Contacts
+d-----        6/27/2022   5:33 PM                Desktop
+d-r---        5/10/2022   9:23 AM                Favorites
+d-r---         5/6/2022   7:43 PM                Links
+d-r---         5/6/2022   7:43 PM                Music
+d-r---         5/6/2022   7:43 PM                Saved Games
+d-r---         5/6/2022   7:44 PM                Searches
+
+
+PS C:\Users\Administrator> help
+
+TOPIC
+    Windows PowerShell Help System
+
+SHORT DESCRIPTION
+    Displays help about Windows PowerShell cmdlets and concepts.
+
+LONG DESCRIPTION
+    Windows PowerShell Help describes Windows PowerShell cmdlets,
+    functions, scripts, and modules, and explains concepts, including
+    the elements of the Windows PowerShell language.
+
+    Windows PowerShell does not include help files, but you can read the
+    help topics online, or use the Update-Help cmdlet to download help files
+    to your computer and then use the Get-Help cmdlet to display the help
+    topics at the command line.
+
+    You can also use the Update-Help cmdlet to download updated help files
+    as they are released so that your local help content is never obsolete.
+
+    Without help files, Get-Help displays auto-generated help for cmdlets,
+    functions, and scripts.
+
+
+  ONLINE HELP
+    You can find help for Windows PowerShell online in the TechNet Library
+    beginning at http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    To open online help for any cmdlet or function, type:
+
+        Get-Help <cmdlet-name> -Online
+
+  UPDATE-HELP
+    To download and install help files on your computer:
+
+       1. Start Windows PowerShell with the "Run as administrator" option.
+       2. Type:
+
+          Update-Help
+
+    After the help files are installed, you can use the Get-Help cmdlet to
+    display the help topics. You can also use the Update-Help cmdlet to
+    download updated help files so that your local help files are always
+    up-to-date.
+
+    For more information about the Update-Help cmdlet, type:
+
+       Get-Help Update-Help -Online
+
+
+PS C:\Users\Administrator> netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    10.10.11.107:3993      si-in-f188:5228        ESTABLISHED
+  TCP    10.10.11.107:4149      a-0001:https           TIME_WAIT
+  TCP    10.10.11.107:4185      server-18-161-52-85:https  ESTABLISHED
+  TCP    10.10.11.107:4197      lb-140-82-113-25-iad:https  ESTABLISHED
+  TCP    10.10.11.107:4206      85:https               TIME_WAIT
+  TCP    10.10.11.107:4208      a-0001:https           ESTABLISHED
+  TCP    10.10.11.107:4209      222:https              ESTABLISHED
+  TCP    10.10.11.107:4210      254:https              ESTABLISHED
+  TCP    10.10.11.107:4212      254:https              ESTABLISHED
+  TCP    10.10.11.107:4213      85:https               TIME_WAIT
+  TCP    10.10.11.107:4214      128:https              TIME_WAIT
+  TCP    10.10.11.107:4215      128:https              TIME_WAIT
+  TCP    10.10.11.107:4216      128:https              TIME_WAIT
+  TCP    10.10.11.107:4217      128:https              ESTABLISHED
+  TCP    10.10.11.107:4219      128:https              ESTABLISHED
+
+
+PS C:\Users\Administrator> date
+
+Wednesday, August 17, 2022 8:42:07 PM
+
+
+PS C:\Users\Administrator> netsh wlan show profile
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : Wi-Fi
+    All User Profile     :
+
+
+PS C:\Users\Administrator> $PSVersionTable.BuildVersion
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+10     0      18362  1593
+
+
+PS C:\Users\Administrator> Test-Path C:\Users\Administrator\Desktop\
+True
+
+
+PS C:\Users\Administrator> Get-EventLog -List
+
+  Max(K) Retain OverflowAction        Entries Log
+  ------ ------ --------------        ------- ---
+  20,480      0 OverwriteAsNeeded       2,140 Application
+  20,480      0 OverwriteAsNeeded           0 HardwareEvents
+     512      7 OverwriteOlder              0 Internet Explorer
+  20,480      0 OverwriteAsNeeded           0 Key Management Service
+     128      0 OverwriteAsNeeded           8 OAlerts
+                                              Security
+  20,480      0 OverwriteAsNeeded       2,772 System
+  15,360      0 OverwriteAsNeeded         680 Windows PowerShell
+
+
+PS C:\Users\Administrator> Get-Command -Name *EventLog
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Clear-EventLog                                     3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Get-EventLog                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Limit-EventLog                                     3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          New-EventLog                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Remove-EventLog                                    3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Show-EventLog                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Write-EventLog                                     3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\Administrator> Get-Help Get-EventLog
+
+NAME
+    Get-EventLog
+
+SYNTAX
+    Get-EventLog [-LogName] <string> [[-InstanceId] <long[]>] [-ComputerName <string[]>] [-Newest <int>] [-After
+    <datetime>] [-Before <datetime>] [-UserName <string[]>] [-Index <int[]>] [-EntryType {Error | Information |
+    FailureAudit | SuccessAudit | Warning}] [-Source <string[]>] [-Message <string>] [-AsBaseObject]
+    [<CommonParameters>]
+
+    Get-EventLog [-ComputerName <string[]>] [-List] [-AsString]  [<CommonParameters>]
+
+
+ALIASES
+    None
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-EventLog -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113314.
+
+
+PS C:\Users\Administrator> Get-Help Format-Table
+
+NAME
+    Format-Table
+
+SYNTAX
+    Format-Table [[-Property] <Object[]>] [-AutoSize] [-RepeatHeader] [-HideTableHeaders] [-Wrap] [-GroupBy <Object>]
+    [-View <string>] [-ShowError] [-DisplayError] [-Force] [-Expand {CoreOnly | EnumOnly | Both}] [-InputObject
+    <psobject>]  [<CommonParameters>]
+
+
+ALIASES
+    ft
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Format-Table -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113303.
+
+
+PS C:\Users\Administrator> Get-Service "vm*"
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  vmicguestinterface Hyper-V Guest Service Interface
+Stopped  vmicheartbeat      Hyper-V Heartbeat Service
+Stopped  vmickvpexchange    Hyper-V Data Exchange Service
+Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
+Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
+Stopped  vmictimesync       Hyper-V Time Synchronization Service
+Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
+Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
+
+
+PS C:\Users\Administrator> nslookup
+Default Server:  one.one.one.one
+Address:  1.1.1.1
+
+
+PS C:\Users\Administrator> chdir c:\users
+PS C:\users>
+
+
+PS C:\users\Administrator> arp /a
+
+Interface: 10.10.11.107 --- 0xe
+  Internet Address      Physical Address      Type
+  10.10.11.1            d8-47-32-16-60-b2     dynamic
+  10.10.11.255          ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
